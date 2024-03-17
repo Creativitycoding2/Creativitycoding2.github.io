@@ -8,7 +8,7 @@ from django.shortcuts import render
 # pipeline
 
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'index.html')
 
 
 def pipe1(request):
