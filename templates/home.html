@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HomeMenu</title>
+    <!--script to import bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--style for gallery-->
+    <style>
+      .gallery-item {
+        margin-bottom: 20px;
+      }
+      .gallery-item img {
+        max-width: 100%;
+        height: auto;
+      }
+      .footer {
+      background-color: #f8f9fa; /* light gray */
+    }
+    .footer a {
+      color: #007bff; /* blue */
+    }
+    .footer a:hover {
+      color: #0056b3; /* darker blue on hover */
+    }
+    </style>
+  </head>
+  <body>
+    <!--navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="\">Welcome</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pipe1">FeedBack</a><!--feedback link-->
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="/pipe2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/textutils">Text Analyser</a></li>
+                  <li><a class="dropdown-item" href="/ecommerce">E-commerce</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/about">Coming soon</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/watch?v=5BDgKJFZMl8&list=PLu0W_9lII9ah7DDtYtflgwMwpT3xmjXY9&ab_channel=CodeWithHarry" target="_blank">YouTube</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">coming soon</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--Alert-->
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Welcome</strong> This Site is under devolpment so many function are not functional yet <b>this is a prototype</b>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <!--Gallery-->
+      <div class="container">
+        <h2 class="my-4 text-center">My Projects</h2>
+        <h3 class="my-4 text-center">these are some of my best projects hope so it entertain you</h3>
+        <div class="row">
+          <div class="col-md-4 gallery-item">
+            <img src="https://source.unsplash.com/600x300/?technology,virtualreality" class="rounded"alt="Image 1">
+          </div>
+          <div class="col-md-4 gallery-item">
+            <img src="https://source.unsplash.com/600x300/?nature,metaverse" class="rounded"alt="Image 2">
+          </div>
+          <div class="col-md-4 gallery-item">
+            <img src="https://source.unsplash.com/600x300/?space,ai" class="rounded" alt="Image 3">
+          </div>
+          <div class="col-md-4 gallery-item">
+            <img src="https://source.unsplash.com/600x300/?education,gaming" class="rounded" alt="Image 4">
+          </div>
+          <div class="col-md-4 gallery-item">
+            <img src="https://source.unsplash.com/600x300/?night,reality" class="rounded" alt="Image 5">
+          </div>
+          <div class="col-md-4 gallery-item">
+            <img src="https://source.unsplash.com/600x300/?day,beauty" class="rounded" alt="Image 6">
+          </div>
+        </div>
+      </div>
+      <div class="card text-center">
+        <div class="card-header">
+          Thanks for Visiting
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Visit other Projects</h5>
+          <p class="card-text">the projects shown here may not be perfect but you can help me improve it by leaving a FeedBack</p>
+          <a href="#" class="btn btn-primary">other Projects</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+          Dont waste your valuable FeedBack
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
