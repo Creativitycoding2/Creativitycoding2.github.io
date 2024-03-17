@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$-#9t(ru2-s)-*jl6fq(f-_krois-0+yh=0#dq#y=cpuu0%(nz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['creativitycoding2.github.io']
 
 
 # Application definition
