@@ -26,5 +26,5 @@ urlpatterns = [
     path('pipe2', views.pipe3, name='index2'),
     path('textutils', include('textutils.urls')),
     path('portfolio', include('portfolio.urls')),
-    path('ecommerce', views.ecommerce, name='index6')
+    path('ecommerce', include('eccomerce.urls'))
 ]
